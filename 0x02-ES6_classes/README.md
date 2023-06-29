@@ -47,7 +47,7 @@ Click to show/hide file contents
 
 > 0. Implement a class named ClassRoom:
 
- * Prototype: export default class ClassRoom
+ * Prototype: `export default class ClassRoom`
  * 
  * It should accept one attribute named maxStudentsSize (Number) and assigned to _maxStudentsSize
 
