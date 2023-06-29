@@ -2,8 +2,8 @@
 
 ### Resources:
 
-* [classes](/https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
-* [Metaprogramming](/https://www.keithcirkel.co.uk/metaprogramming-in-es6-symbols/#symbolspecies)
+* [classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
+* [Metaprogramming](https://www.keithcirkel.co.uk/metaprogramming-in-es6-symbols/#symbolspecies)
 
 ### Requirements
 * All your files will be executed on `Ubuntu 18.04 LTS using NodeJS 12.11.x`
