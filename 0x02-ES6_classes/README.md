@@ -39,30 +39,41 @@ in your project directory:
 
 Click to show/hide file contents
 
-(
-`{
-  "scripts": {
-    "lint": "./node_modules/.bin/eslint",
-    "check-lint": "lint [0-9]*.js",
-    "dev": "npx babel-node",
-    "test": "jest",
-    "full-test": "./node_modules/.bin/eslint [0-9]*.js && jest"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.6.0",
-    "@babel/preset-env": "^7.6.0",
-    "@babel/node": "^7.8.0",
-    "eslint": "^6.4.0",
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jest": "^22.17.0",
-    "jest": "^24.9.0"
-  }
-}`
-)
+`babel.config.js`
 
-babel.config.js
 Click to show/hide file contents
+
+## Tasks
+
+> 0. Implement a class named ClassRoom:
+
+ * Prototype: export default class ClassRoom
+ * 
+ * It should accept one attribute named maxStudentsSize (Number) and assigned to _maxStudentsSize
+
+> 1. Import the ClassRoom class from 0-classroom.js.
+
+* Implement a function named initializeRooms. It should return an array of 3 ClassRoom objects with the sizes 19, 20, and 34 (in this order).
+
+> 2. Implement a class named `HolbertonCourse`:
+
+Constructor attributes:
+
+`name` (String)
+
+`length` (Number)
+
+`students` (array of Strings)
+
+* Make sure to verify the type of attributes during object creation
+* Each attribute must be stored in an “underscore” attribute version (ex: `name` is stored in `_name`)
+* Implement a getter and setter for each attribute.
+
+
+   ## AUTHOR:
+
+  > MONEHIN FEYISARA
+
 
 
   
