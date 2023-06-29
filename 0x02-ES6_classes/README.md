@@ -39,7 +39,7 @@ in your project directory:
 
 Click to show/hide file contents
 
-[
+(
 `{
   "scripts": {
     "lint": "./node_modules/.bin/eslint",
@@ -59,7 +59,7 @@ Click to show/hide file contents
     "jest": "^24.9.0"
   }
 }`
-]
+)
 
 babel.config.js
 Click to show/hide file contents
